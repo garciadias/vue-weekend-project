@@ -107,6 +107,9 @@ export default {
 	-webkit-box-shadow:inset 0 1px 1px #000, 0px 1px #E6E6E6;
 	box-shadow:inset 0 1px 1px #000, 0px 1px #E6E6E6;
 }
+button:focus{
+  outline: none;
+}
 #clear{
 	background-color:#d02200;
 	border:1px solid #d02200;
