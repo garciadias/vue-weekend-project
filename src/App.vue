@@ -24,4 +24,14 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+body {
+	background-image: -moz-radial-gradient(center, circle closest-corner, #353863 0%, #000 100%);
+	background-image: -o-radial-gradient(center, circle closest-corner, #353863 0%, #000 100%);
+	background-image: -webkit-radial-gradient(center, circle closest-corner, #353863 0%, #000 100%);
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	-o-user-select:none;
+	user-select:none;
+}
 </style>
